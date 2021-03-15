@@ -1,11 +1,11 @@
-function trapeziodArea(a, b, c) {
-    let b1 = Number(a);
-    let b2 = Number(b);
-    let h = Number(c);
+function trapeziodArea(input) {
+    let b1 = Number(input[0]);
+    let b2 = Number(input[1]);
+    let h = Number(input[2]);
 
     let trapezoidAreaCalc = (b1 + b2) * h / 2;
 
     console.log(`${trapezoidAreaCalc.toFixed(2)}`);
 }
 
-trapeziodArea(8, 13, 7);
+trapeziodArea(["8", "13", "7"]);

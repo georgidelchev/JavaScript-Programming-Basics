@@ -1,6 +1,6 @@
-function trainingLab(l, w) {
-    let lenght = Number(l);
-    let width = Number(w);
+function trainingLab(input) {
+    let lenght = Number(input[0]);
+    let width = Number(input[1]);
 
     const corridor = 100;
     const desk = 70;
@@ -18,5 +18,5 @@ function trainingLab(l, w) {
     console.log(totalPlaces)
 }
 
-trainingLab(15, 8.9);
-trainingLab(8.4, 5.2);
+trainingLab(["15", "8.9"]);
+trainingLab(["8.4", "5.2"]);

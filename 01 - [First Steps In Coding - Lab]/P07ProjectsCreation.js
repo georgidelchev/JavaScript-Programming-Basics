@@ -1,6 +1,6 @@
-function projectCreation(name, projCount) {
-    let archName = name;
-    let projectsCount = Number(projCount);
+function projectCreation(input) {
+    let archName = input[0];
+    let projectsCount = Number(input[1]);
 
     let timeNeededPerProject = 3;
 
@@ -9,5 +9,5 @@ function projectCreation(name, projCount) {
     console.log(`The architect ${archName} will need ${neededHours} hours to complete ${projectsCount} project/s.`)
 }
 
-projectCreation("George", 4);
-projectCreation("Sanya", 9);
+projectCreation(["George", 4]);
+projectCreation(["Sanya", 9]);

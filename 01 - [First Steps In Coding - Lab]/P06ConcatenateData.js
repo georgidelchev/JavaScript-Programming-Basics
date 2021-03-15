@@ -1,10 +1,10 @@
-function concatenateData(fName, lName, age, town) {
-    let firstName = fName;
-    let lastName = lName;
-    let yearsOld = age;
-    let townLiving = town;
+function concatenateData(input) {
+    let firstName = input[0];
+    let lastName = input[1];
+    let age = Number(input[2]);
+    let town = input[3];
 
-    console.log(`You are ${firstName} ${lastName}, a ${yearsOld}-years old person from ${townLiving}.`)
+    console.log(`You are ${firstName} ${lastName}, a ${age}-years old person from ${town}.`)
 }
 
-concatenateData("Maria", "Ivanova", 20, "Sofia");
+concatenateData(["Maria", "Ivanova", "20", "Sofia"]);

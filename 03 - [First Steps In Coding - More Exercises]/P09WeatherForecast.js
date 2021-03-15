@@ -1,7 +1,8 @@
 function weatherForecast(input) {
-    let consoleInput = input;
+    let consoleInput = input[0];
 
     let result = "";
+
     switch (consoleInput) {
         case "sunny":
             result = "It's warm outside!";
@@ -14,6 +15,6 @@ function weatherForecast(input) {
     console.log(result)
 }
 
-weatherForecast("sunny");
-weatherForecast("cloudy");
-weatherForecast("snowy");
+weatherForecast(["sunny"]);
+weatherForecast(["cloudy"]);
+weatherForecast(["snowy"]);

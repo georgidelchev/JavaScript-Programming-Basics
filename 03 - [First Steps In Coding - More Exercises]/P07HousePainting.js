@@ -1,7 +1,7 @@
-function housePainting(x, y, h) {
-    let houseHeight = Number(x);
-    let sideWallLength = Number(y);
-    let triangleSideRoof = Number(h);
+function housePainting(input) {
+    let houseHeight = Number(input[0]);
+    let sideWallLength = Number(input[1]);
+    let triangleSideRoof = Number(input[2]);
 
     let sideWallArea = houseHeight * sideWallLength;
     let windowArea = 1.5 * 1.5;
@@ -28,5 +28,5 @@ function housePainting(x, y, h) {
     console.log(`${redPaint.toFixed(2)}`);
 }
 
-housePainting(6, 10, 5.2);
-housePainting(10.25, 15.45, 8.88);
+housePainting(["6", "10", "5.2"]);
+housePainting(["10.25", "15.45", "8.88"]);

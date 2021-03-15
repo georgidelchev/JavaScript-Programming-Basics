@@ -1,5 +1,5 @@
-function birthdayParty(rent) {
-    let hallRent = Number(rent);
+function birthdayParty(input) {
+    let hallRent = Number(input[0]);
 
     let cakePrice = hallRent * 0.20;
     let drinksPrice = cakePrice - (cakePrice * 0.45);
@@ -10,5 +10,5 @@ function birthdayParty(rent) {
     console.log(`${totalPrice}`)
 }
 
-birthdayParty(2250);
-birthdayParty(3720);
+birthdayParty(["2250"]);
+birthdayParty(["3720"]);

@@ -1,5 +1,5 @@
-function yardGreening(sqMeters) {
-    let squareMeters = Number(sqMeters);
+function yardGreening(input) {
+    let squareMeters = Number(input[0]);
 
     let sum = (squareMeters * 7.61);
     let discount = sum * 0.18;
@@ -10,5 +10,5 @@ function yardGreening(sqMeters) {
     console.log(`The final price is: ${discount} lv.`);
 }
 
-yardGreening(550);
-yardGreening(150);
+yardGreening([550]);
+yardGreening([150]);

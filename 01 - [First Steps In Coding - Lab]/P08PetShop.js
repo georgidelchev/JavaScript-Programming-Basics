@@ -1,6 +1,6 @@
-function petShop(dogs, other) {
-    let dogsCount = Number(dogs);
-    let otherAnimals = Number(other);
+function petShop(input) {
+    let dogsCount = Number(input[0]);
+    let otherAnimals = Number(input[1]);
 
     let dogFoodPrice = dogsCount * 2.50;
     let otherAnimalsFoodPrice = otherAnimals * 4.00;
@@ -10,5 +10,5 @@ function petShop(dogs, other) {
     console.log(`${neededSum} lv.`)
 }
 
-petShop(5, 4);
-petShop(13, 9);
+petShop([5, 4]);
+petShop([13, 9]);
