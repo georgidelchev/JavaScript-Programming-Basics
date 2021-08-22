@@ -6,9 +6,7 @@ function housePainting(input) {
     let sideWallArea = houseHeight * sideWallLength;
     let windowArea = 1.5 * 1.5;
 
-    let bothSidesArea =
-        sideWallArea * 2 -
-        windowArea * 2;
+    let bothSidesArea = sideWallArea * 2 - windowArea * 2;
 
     let backWall = houseHeight * houseHeight;
     let entrance = 1.2 * 2;

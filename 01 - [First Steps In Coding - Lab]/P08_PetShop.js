@@ -4,7 +4,6 @@ function petShop(input) {
 
     let dogFoodPrice = dogsCount * 2.50;
     let otherAnimalsFoodPrice = otherAnimals * 4.00;
-
     let neededSum = dogFoodPrice + otherAnimalsFoodPrice;
 
     console.log(`${neededSum} lv.`)

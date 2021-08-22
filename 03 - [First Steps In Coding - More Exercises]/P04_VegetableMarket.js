@@ -4,11 +4,10 @@ function vegetableMarket(input) {
     let vegetablesTotalKg = Number(input[2]);
     let fruitsTotalKg = Number(input[3]);
 
-    let totalVegablesSum = vegetablesTotalKg * vegetablesPricePerKg;
+    let totalVegetablesSum = vegetablesTotalKg * vegetablesPricePerKg;
     let totalFruitsSum = fruitsTotalKg * fruitsPricePerKg;
 
-    let totalSum = totalVegablesSum + totalFruitsSum;
-    totalSum /= 1.94;
+    let totalSum = (totalVegetablesSum + totalFruitsSum) / 1.94;
 
     console.log(`${totalSum.toFixed(2)}`)
 }

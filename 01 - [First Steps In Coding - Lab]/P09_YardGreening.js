@@ -1,6 +1,5 @@
 function yardGreening(input) {
     let squareMeters = Number(input[0]);
-
     let sum = (squareMeters * 7.61);
     let discount = sum * 0.18;
 

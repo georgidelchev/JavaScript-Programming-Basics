@@ -1,5 +1,5 @@
 function trainingLab(input) {
-    let lenght = Number(input[0]);
+    let length = Number(input[0]);
     let width = Number(input[1]);
 
     const corridor = 100;
@@ -9,9 +9,9 @@ function trainingLab(input) {
     let hallWidth = width * 100 - corridor;
     let desks = Math.floor(hallWidth / desk);
 
-    let hallLenght = lenght * 100;
+    let hallLength = length * 100;
 
-    let rows = Math.floor(hallLenght / row);
+    let rows = Math.floor(hallLength / row);
 
     let totalPlaces = desks * rows - 3;
 

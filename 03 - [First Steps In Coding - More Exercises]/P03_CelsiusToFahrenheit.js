@@ -1,4 +1,4 @@
-function celsiustoFahrenheit(input) {
+function celsiusToFahrenheit(input) {
     let degrees = Number(input[0]);
 
     let converted = degrees * 1.8 + 32;
@@ -6,7 +6,7 @@ function celsiustoFahrenheit(input) {
     console.log(`${converted.toFixed(2)}`);
 }
 
-celsiustoFahrenheit(["25"]);
-celsiustoFahrenheit(["0"]);
-celsiustoFahrenheit(["-5.5"]);
-celsiustoFahrenheit(["32.3"]);
+celsiusToFahrenheit(["25"]);
+celsiusToFahrenheit(["0"]);
+celsiusToFahrenheit(["-5.5"]);
+celsiusToFahrenheit(["32.3"]);
